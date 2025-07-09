@@ -116,8 +116,8 @@ if __name__ == '__main__':
     print("|---- Test Accuracy (last round): {:.2f}%".format(100*train_accuracy[-1]))
 
     # CREATE SAVE DIRECTORIES
-    objects_save_path = "/Users/ml/Downloads/Vanilla FL/Federated-Learning-PyTorch-master/Federated-Learning-PyTorch-master/save/objects"
-    images_save_path = "/Users/ml/Downloads/Vanilla FL/Federated-Learning-PyTorch-master/Federated-Learning-PyTorch-master/save"
+    objects_save_path = " enter save path "
+    images_save_path = " enter save path "
     
     os.makedirs(objects_save_path, exist_ok=True)
     os.makedirs(images_save_path, exist_ok=True)
